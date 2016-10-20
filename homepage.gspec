@@ -1,0 +1,27 @@
+@objects
+	site-branding	css		.site-branding
+	header-img		css		.site-branding a img
+	social-link-*	xpath	//div[@class='socialmedia-buttons smw_center']/a
+	sidebar			id		widget-area-2
+	content			id		content
+
+
+= Main section =
+	@on desktop
+	@forEach [social-link-*] as itemName, next as nextItem
+		${itemName}:
+			width 52px 
+			aligned horizontally top ${nextItem}
+
+			
+	content:
+		near sidebar 40px left
+
+	site-branding:
+		centered horizontally inside screen
+
+	header-img:
+		image file header1.png, error 0%
+
+
+

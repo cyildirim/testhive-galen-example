@@ -1,0 +1,246 @@
+{
+  "testId" : "1-homepage.gspec",
+  "name" : "homepage.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  homepage.gspec --size 1024x768 --url http://testhive.org -Dwebdriver.chrome.driver=/etc/chromedriver --htmlreport htmlreport-dir",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: homepage.gspec included tags: ",
+          "status" : "error",
+          "time" : 1476811226017,
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "homepage.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "social-link-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-2",
+                "highlight" : [ "social-link-1", "social-link-2" ]
+              } ]
+            }, {
+              "name" : "social-link-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-3",
+                "highlight" : [ "social-link-2", "social-link-3" ]
+              } ]
+            }, {
+              "name" : "social-link-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-4",
+                "highlight" : [ "social-link-3", "social-link-4" ]
+              } ]
+            }, {
+              "name" : "social-link-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-5",
+                "highlight" : [ "social-link-4", "social-link-5" ]
+              } ]
+            }, {
+              "name" : "social-link-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-6",
+                "highlight" : [ "social-link-5", "social-link-6" ]
+              } ]
+            }, {
+              "name" : "social-link-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-7",
+                "highlight" : [ "social-link-6", "social-link-7" ]
+              } ]
+            }, {
+              "name" : "social-link-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 52px",
+                "highlight" : [ "social-link-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally top social-link-8",
+                "highlight" : [ "social-link-7", "social-link-8" ]
+              } ]
+            }, {
+              "name" : "content",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "near sidebar 40px left",
+                "highlight" : [ "content", "sidebar" ]
+              } ]
+            }, {
+              "name" : "site-branding",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "site-branding", "screen" ]
+              } ]
+            }, {
+              "name" : "header-img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "image file header1.png, error 0%",
+                "errors" : [ "Element does not look like \"header1.png\". There are 1.78% mismatching pixels but max allowed is 0%" ],
+                "highlight" : [ "header-img" ],
+                "imageComparison" : {
+                  "actualImage" : "layout-2-header-img-actual.png",
+                  "expectedImage" : "layout-3-header-img-expected.png",
+                  "comparisonMapImage" : "layout-4-header-img-map.png"
+                }
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "social-link-2" : {
+              "area" : [ 348, 274, 52, 16 ]
+            },
+            "social-link-1" : {
+              "area" : [ 296, 274, 52, 16 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1009, 2629 ]
+            },
+            "content" : {
+              "area" : [ 14, 380, 640, 2137 ]
+            },
+            "header-img" : {
+              "area" : [ 14, 20, 980, 226 ]
+            },
+            "sidebar" : {
+              "area" : [ 694, 356, 300, 1683 ]
+            },
+            "site-branding" : {
+              "area" : [ 14, 20, 980, 226 ]
+            },
+            "social-link-8" : {
+              "area" : [ 660, 274, 52, 16 ]
+            },
+            "social-link-7" : {
+              "area" : [ 608, 274, 52, 16 ]
+            },
+            "social-link-6" : {
+              "area" : [ 556, 274, 52, 16 ]
+            },
+            "social-link-5" : {
+              "area" : [ 504, 274, 52, 16 ]
+            },
+            "social-link-4" : {
+              "area" : [ 452, 274, 52, 16 ]
+            },
+            "social-link-3" : {
+              "area" : [ 400, 274, 52, 16 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1476811224680,
+        "type" : "node"
+      } ],
+      "time" : 1476811219761,
+      "type" : "node"
+    } ]
+  }
+}

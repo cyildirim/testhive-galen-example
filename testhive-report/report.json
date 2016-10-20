@@ -1,0 +1,18 @@
+{
+  "tests" : [ {
+    "name" : "Home page",
+    "startedAt" : 1476811062128,
+    "endedAt" : 1476811068101,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 16,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 17
+    },
+    "testId" : "1-home-page",
+    "groups" : [ ],
+    "failed" : true,
+    "duration" : 5973
+  } ]
+}
